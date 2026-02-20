@@ -6,3 +6,4 @@ on:
 jobs:
     call_rw:
       uses: mluzcabrera/reusableworkflowsrepo/.cloudbees/workflows/rw_upload_binary.yaml
+      secrets: inherit
