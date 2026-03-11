@@ -16,7 +16,7 @@ permissions:
 jobs:
   build:
     steps:
-      - name: Get source code
+      - name: Get source code 
         uses: cloudbees-io/checkout@v1 
 
       - id: build-container
